@@ -1,22 +1,15 @@
-import title from "../Title/Title";
+import React from "react";
 
-const info = {
-    title: "Some Title",
-    body: "Some body"
-};
-
-function Subtitle(props) {
+const About = ({info}) => {
     return (
         <div>
             <h2>{info.title}</h2>
             <p>{info.body}</p>
         </div>
     )
-}
+};
 
-function About () {
-    return (
-        <Subtitle info = {info}/>
-    )
-}
 export default About;
+
+
+

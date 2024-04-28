@@ -1,14 +1,9 @@
-function Title2({title}) {
-    return (
-        <h2>{title}</h2>
-    )
-}
+import React from 'react';
 
-function Title () {
+const Title = ({text}) => {
     return (
-        <>
-            <Title2 title="Hello World!"/>
-        </>
-    )
-}
+        <h1>{text}</h1>
+    );
+};
+
 export default Title;
